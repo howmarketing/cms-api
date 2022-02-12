@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vault_records",
+  "info": {
+    "singularName": "vault-record",
+    "pluralName": "vault-records",
+    "displayName": "vault-record"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "account_id": {
+      "type": "string"
+    },
+    "record_type": {
+      "type": "string"
+    },
+    "contract_id": {
+      "type": "string"
+    },
+    "function_name": {
+      "type": "string"
+    },
+    "function_params": {
+      "type": "text"
+    },
+    "function_args": {
+      "type": "text"
+    },
+    "json_data": {
+      "type": "json"
+    },
+    "action_key": {
+      "type": "string"
+    },
+    "action_value": {
+      "type": "text"
+    }
+  }
+}
