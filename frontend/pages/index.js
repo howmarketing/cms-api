@@ -1,4 +1,3 @@
-import 'next/babel';
 import React from "react"
 import Articles from "../components/articles"
 import Layout from "../components/layout"
