@@ -79,7 +79,7 @@ $RECYCLE.BIN/
 *#
 # ssl
 .idea
-# nbproject
+nbproject
 # public/uploads/*
 !public/uploads/.gitkeep
 
@@ -87,11 +87,11 @@ $RECYCLE.BIN/
 # Node.js
 ############################
 
-lib-cov
-lcov.info
+# lib-cov
+# lcov.info
 pids
 logs
-results
+# results
 node_modules
 .node_history
 
@@ -110,8 +110,5 @@ coverage
 # license.txt
 exports
 *.cache
-# build
-.strapi-updater.json
-
-package-lock.json
-yarn-lock.json
+build
+# .strapi-updater.json

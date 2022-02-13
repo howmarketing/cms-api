@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vault_recorders",
+  "info": {
+    "singularName": "vault-recorder",
+    "pluralName": "vault-recorders",
+    "displayName": "vault Recorder"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contract_id": {
+      "type": "string"
+    },
+    "request_type": {
+      "type": "enumeration",
+      "enum": [
+        "function_call",
+        "function_view"
+      ]
+    },
+    "account_id": {
+      "type": "string"
+    },
+    "function_name": {
+      "type": "string"
+    },
+    "function_args": {
+      "type": "json"
+    },
+    "amount": {
+      "type": "string"
+    },
+    "transaction_id": {
+      "type": "string"
+    },
+    "request_extra_data": {
+      "type": "json"
+    }
+  }
+}
