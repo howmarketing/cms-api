@@ -2,7 +2,7 @@
   "name": "backend",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application (initial base 1.0.2 vercel-teste)",
+  "description": "A Strapi application (initial base 1.0.3 vercel-teste)",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
