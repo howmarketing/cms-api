@@ -67,9 +67,9 @@ $RECYCLE.BIN/
 
 .tmp
 *.log
-*.sql
-*.sqlite
-*.sqlite3
+# *.sql
+# *.sqlite
+# *.sqlite3
 
 
 ############################
@@ -77,10 +77,10 @@ $RECYCLE.BIN/
 ############################
 
 *#
-ssl
+# ssl
 .idea
-nbproject
-public/uploads/*
+# nbproject
+# public/uploads/*
 !public/uploads/.gitkeep
 
 ############################
@@ -106,9 +106,12 @@ coverage
 # Strapi
 ############################
 
-.env
-license.txt
+# .env
+# license.txt
 exports
 *.cache
-build
+# build
 .strapi-updater.json
+
+package-lock.json
+yarn-lock.json
