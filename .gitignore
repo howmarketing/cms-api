@@ -106,6 +106,7 @@ coverage
 # Strapi
 ############################
 .env.example
+.env.examples
 # .env
 # license.txt
 # exports
