@@ -1,6 +1,6 @@
 export default {
   config: {
-    locales: ['fr'],
+    locales: ['pt-BR'],
   },
   bootstrap() {},
 };
